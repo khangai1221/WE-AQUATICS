@@ -2,10 +2,5 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "functions": {
-    "dist/server/**/*.js": {
-      "maxDuration": 10
-    }
-  }
+  "installCommand": "npm install"
 }
