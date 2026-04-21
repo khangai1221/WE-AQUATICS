@@ -1,11 +1,5 @@
-import { createRouter, RouterProvider } from "@tanstack/react-router";
-import { routeTree } from "./routeTree.gen";
+import { createRoot } from "react-dom/client";
+import App from "./App";
 import "./styles.css";
 
-const router = createRouter({ routeTree });
-
-function App() {
-  return <RouterProvider router={router} />;
-}
-
-export default App;
+createRoot(document.getElementById("root")!).render(<App />);
