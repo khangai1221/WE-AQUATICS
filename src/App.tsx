@@ -4,6 +4,7 @@ import { Achievements } from "@/components/site/Achievements";
 import { About } from "@/components/site/About";
 import { Programs } from "@/components/site/Programs";
 import { Coaches } from "@/components/site/Coaches";
+import { Location } from "@/components/site/Location";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Programs />
         <Coaches />
+        <Location />
         <CTA />
       </main>
       <Footer />
