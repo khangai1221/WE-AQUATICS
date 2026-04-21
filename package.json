@@ -9,8 +9,7 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write .",
-    "postbuild": "cp dist/server/server.js api/server.js && cp -r dist/server/assets api/assets 2>/dev/null || true"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
