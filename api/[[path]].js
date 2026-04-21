@@ -1,3 +1,3 @@
-import { handler } from '../dist/server/server.js';
+import { server } from './server.js';
 
-export { handler };
+export { server as default };

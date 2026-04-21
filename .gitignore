@@ -31,3 +31,6 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+# Generated Vercel server files
+api/server.js
+api/assets
