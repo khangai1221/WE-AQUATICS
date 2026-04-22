@@ -9,6 +9,7 @@ const programs = [
     level: "Анхан шат",
     title: "Хүүхдийн сургалт",
     desc: "5 наснаас дээш хүүхдүүдэд зориулсан суурь дадлага, аюулгүй байдлын сургалт.",
+    coach: "О.Батулга, Э.Дэмүүл",
     points: ["Усанд дасгах", "Үндсэн зүсэлт", "Аюулгүй байдал"],
   },
   {
@@ -16,6 +17,7 @@ const programs = [
     level: "Дунд шат",
     title: "Насанд хүрэгчдийн фитнес",
     desc: "Эрүүл мэндийн төлөө усанд сэлэх 4 төрлийн зүсэлтийг эзэмших.",
+    coach: "Э.Хулан, З.Тэмүүлэн",
     points: ["Техник сайжруулах", "Тэвчээр", "Кардио бэлтгэл"],
   },
   {
@@ -23,6 +25,7 @@ const programs = [
     level: "Ахисан шат",
     title: "Мэргэжлийн бэлтгэл",
     desc: "Тэмцээнд оролцох тамирчдад зориулсан өндөр түвшний бэлтгэл хөтөлбөр.",
+    coach: "Э.Баасандорж",
     points: ["Хувийн төлөвлөгөө", "Тэмцээний дадлага", "Гадаад бэлтгэл"],
   },
 ];
@@ -37,7 +40,9 @@ export function Programs() {
               Хичээлийн хөтөлбөр
             </div>
             <h2 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-balance leading-tight">
-              Бүх насны хүмүүст<br/>тохирсон <span className="text-gradient-water">хичээл</span>
+              Бүх насны хүмүүст
+              <br />
+              тохирсон <span className="text-gradient-water">хичээл</span>
             </h2>
           </div>
           <p className="text-muted-foreground max-w-md">
@@ -62,9 +67,15 @@ export function Programs() {
                 />
               </div>
               <div className="p-6 lg:p-8">
-                <div className="text-xs uppercase tracking-[0.2em] text-primary font-semibold">{p.level}</div>
+                <div className="text-xs uppercase tracking-[0.2em] text-primary font-semibold">
+                  {p.level}
+                </div>
                 <h3 className="font-display font-extrabold text-2xl mt-2">{p.title}</h3>
                 <p className="text-muted-foreground mt-3 leading-relaxed">{p.desc}</p>
+                <div className="mt-4 flex items-center gap-2 text-sm text-gold font-medium">
+                  <span>Дасгалжуулагч:</span>
+                  <span>{p.coach}</span>
+                </div>
                 <ul className="mt-5 space-y-2">
                   {p.points.map((pt) => (
                     <li key={pt} className="flex items-center gap-3 text-sm">

@@ -17,7 +17,9 @@ export function About() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 lg:-right-12 bg-card rounded-2xl shadow-xl p-6 border border-border max-w-[220px]">
-              <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Үүсгэн байгуулагдсан</div>
+              <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                Үүсгэн байгуулагдсан
+              </div>
               <div className="font-display font-black text-5xl text-gradient-water mt-1">2012</div>
             </div>
           </div>
@@ -27,18 +29,21 @@ export function About() {
               Бидний тухай
             </div>
             <h2 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-balance leading-tight">
-              Эрүүл амьдралын{" "}
-              <span className="text-gradient-water">хэв маяг</span>
+              Товч <span className="text-gradient-water"> танилцуулга</span>
             </h2>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              Манай Ви Аквайтикс усан спортын клуб нь 2012 оноос эхлэн усанд сэлэлтийн
-              мэргэжлийн тамирчдыг тогтвортой бэлдэж зогсохгүй усан спортоор дамжуулан хүмүүсийн
-              эрүүл мэндэд хувь нэмрээ оруулж байна.
+              Манай Ви Акватикс клуб нь 2012 оноос эхлэн усанд сэлэлтийн мэргэжлийн тамирчдыг
+              бэлтгээд зогсохгүй, усан спортоор дамжуулан хүмүүсийн эрүүл мэндэд хувь нэмрээ оруулж
+              байна. Мөн бүх насны хүмүүст тохирсон анхан, дунд, гүнзгий шатны сургалтуудыг
+              мэргэжлийн дасгалжуулагч нарын удирдлага дор явуулж байна.
             </p>
 
             <div className="mt-10 space-y-5">
               {[
-                { t: "Бие бялдар, сэтгэл зүй", d: "Тамирчин бүрийн бие бялдар, сэтгэл зүй, сахилга батыг тэнцвэртэй хөгжүүлэх." },
+                {
+                  t: "Бие бялдар, сэтгэл зүй",
+                  d: "Тамирчин бүрийн бие бялдар, сэтгэл зүй, сахилга батыг тэнцвэртэй хөгжүүлэх.",
+                },
                 { t: "Багийн нэгдэл", d: "Харилцан хүндлэлд суурилсан эрүүл орчныг бүрдүүлэх." },
                 { t: "Эрүүл амьдрал", d: "Усанд сэлэлтийг эрүүл амьдралын хэв маяг болгох." },
               ].map((v, i) => (

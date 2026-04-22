@@ -1,17 +1,17 @@
 import { MapPin, Phone, Clock } from "lucide-react";
 
 export function Location() {
-  const address = "Great Mongolian Empire Street, Ulaanbaatar, Mongolia, 17012";
+  const address = "Их Монгол Эзэнт Гүрний гудамж, Улаанбаатар, Монгол улс, 17012";
 
   return (
     <section id="location" className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="font-display text-4xl md:text-5xl font-black text-foreground mb-4">
-            Where We Are
+            Бидний байршил
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Visit us at our world-class facility in the heart of Ulaanbaatar
+            Бидний дэлхийн түвшин бассейнтай Улаанбаатар хотод зочилно уу
           </p>
         </div>
 
@@ -24,9 +24,7 @@ export function Location() {
                   <MapPin className="size-6" />
                 </div>
                 <div>
-                  <h3 className="font-display font-bold text-lg text-card-foreground mb-1">
-                    Address
-                  </h3>
+                  <h3 className="font-display font-bold text-lg text-card-foreground mb-1">Хаяг</h3>
                   <p className="text-muted-foreground">{address}</p>
                 </div>
               </div>
@@ -39,7 +37,7 @@ export function Location() {
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-lg text-card-foreground mb-1">
-                    Contact
+                    Холбоо барих
                   </h3>
                   <p className="text-muted-foreground">+976 7011 2012</p>
                 </div>
@@ -53,11 +51,11 @@ export function Location() {
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-lg text-card-foreground mb-1">
-                    Operating Hours
+                    Ажиллах цаг
                   </h3>
                   <div className="text-muted-foreground space-y-1">
-                    <p>Monday - Friday: 06:00 - 22:00</p>
-                    <p>Saturday - Sunday: 08:00 - 20:00</p>
+                    <p>Даваа - Баасан: 06:00 - 22:00</p>
+                    <p>Бямба - Ням: 08:00 - 20:00</p>
                   </div>
                 </div>
               </div>
@@ -74,7 +72,7 @@ export function Location() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Victory Aquatics Location"
+              title="Ви Аквайтикс байршил"
               className="grayscale hover:grayscale-0 transition-all duration-500"
             />
           </div>
@@ -89,7 +87,7 @@ export function Location() {
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-display font-bold px-8 py-4 rounded-xl hover:bg-primary/90 transition-colors"
           >
             <MapPin className="size-5" />
-            Get Directions
+            Замын заавар авах
           </a>
         </div>
       </div>

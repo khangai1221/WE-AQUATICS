@@ -18,7 +18,10 @@ export function Hero() {
 
       {/* Floating orbs */}
       <div className="absolute -top-32 -left-32 w-[500px] h-[500px] rounded-full bg-accent/30 blur-3xl animate-float-slow" />
-      <div className="absolute -bottom-40 -right-32 w-[600px] h-[600px] rounded-full bg-primary/40 blur-3xl animate-float-slow" style={{ animationDelay: "2s" }} />
+      <div
+        className="absolute -bottom-40 -right-32 w-[600px] h-[600px] rounded-full bg-primary/40 blur-3xl animate-float-slow"
+        style={{ animationDelay: "2s" }}
+      />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-20 pb-24 lg:pt-32 lg:pb-32">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
@@ -37,8 +40,8 @@ export function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-primary-foreground/80 max-w-2xl leading-relaxed">
-              2012 оноос хойш мэргэжлийн дасгалжуулагчдын удирдлага дор бүх насны хүмүүст
-              анхан, дунд, ахисан шатны сургалтыг чанартай хүргэж байна.
+              2012 оноос хойш мэргэжлийн дасгалжуулагчдын удирдлага дор бүх насны хүмүүст анхан,
+              дунд, ахисан шатны сургалтыг чанартай хүргэж байна.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -70,12 +73,24 @@ export function Hero() {
           <div className="lg:col-span-5 relative hidden lg:block">
             <div className="relative aspect-square">
               <div className="absolute inset-0 rounded-full border border-gold/30 animate-ripple" />
-              <div className="absolute inset-8 rounded-full border border-gold/30 animate-ripple" style={{ animationDelay: "1s" }} />
-              <div className="absolute inset-16 rounded-full border border-gold/30 animate-ripple" style={{ animationDelay: "2s" }} />
+              <div
+                className="absolute inset-8 rounded-full border border-gold/30 animate-ripple"
+                style={{ animationDelay: "1s" }}
+              />
+              <div
+                className="absolute inset-16 rounded-full border border-gold/30 animate-ripple"
+                style={{ animationDelay: "2s" }}
+              />
               <div className="absolute inset-24 rounded-full bg-gradient-to-br from-gold/20 to-accent/20 backdrop-blur-sm border border-gold/40 flex flex-col items-center justify-center text-center p-8 ring-gold-glow">
                 <div className="font-display font-black text-7xl text-gold">7×</div>
-                <div className="text-sm uppercase tracking-[0.25em] text-primary-foreground/90 mt-2">Champions</div>
-                <div className="text-xs text-primary-foreground/60 mt-3">2019 · 2021 · 2022<br/>2023 · 2024 · 2025 · 2026</div>
+                <div className="text-sm uppercase tracking-[0.25em] text-primary-foreground/90 mt-2">
+                  Аваргууд
+                </div>
+                <div className="text-xs text-primary-foreground/60 mt-3">
+                  2019 · 2021 · 2022
+                  <br />
+                  2023 · 2024 · 2025 · 2026
+                </div>
               </div>
             </div>
           </div>
