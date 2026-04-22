@@ -14,12 +14,12 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Achievements />
         <About />
+        <Achievements />
         <Programs />
+        <CTA />
         <Coaches />
         <Location />
-        <CTA />
       </main>
       <Footer />
     </div>
