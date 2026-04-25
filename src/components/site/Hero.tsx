@@ -9,8 +9,8 @@ export function Hero() {
         <img
           src={heroImg}
           alt="Олимпийн тамирчин усанд сэлж буй нь"
-          width={1600}
-          height={1600}
+          width={482}
+          height={938}
           className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-deep/60 via-deep/40 to-deep/95" />
